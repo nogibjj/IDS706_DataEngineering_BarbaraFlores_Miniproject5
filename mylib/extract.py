@@ -11,5 +11,3 @@ def extract(url="https://raw.githubusercontent.com/nickeubank/practicaldatascien
         with open(file_path, 'wb') as f:
             f.write(r.content)
     return file_path
-
-extract()
