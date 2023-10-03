@@ -13,5 +13,3 @@ def extract(url="https://github.com/nickeubank/practicaldatascience/blob/master/
         with open(file_path, 'wb') as f:
             f.write(r.content)
     return file_path
-
-extract()
