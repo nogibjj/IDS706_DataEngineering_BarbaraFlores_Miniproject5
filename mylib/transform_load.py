@@ -1,14 +1,12 @@
 """
 Transforms and Loads data into the local SQLite3 database
-Example:
-,general name,count_products,ingred_FPro,avg_FPro_products,avg_distance_root,ingred_normalization_term,semantic_tree_name,semantic_tree_node
 """
 import sqlite3
 import csv
 import os
 
 #load the csv file and insert into a new sqlite3 database
-def load(dataset="/workspaces/sqlite-lab/data/GroceryDB_IgFPro.csv"):
+def load(dataset="data/WorldSmall.csv"):
     """"Transforms and Loads data into the local SQLite3 database"""
 
     #prints the full working directory and path
@@ -17,13 +15,12 @@ def load(dataset="/workspaces/sqlite-lab/data/GroceryDB_IgFPro.csv"):
     with open(dataset, 'r', encoding='utf-8', newline='') as file:
         payload = csv.reader(file, delimiter=',')
 
-        conn = sqlite3.connect('GroceryDB.db')
+        conn = sqlite3.connect('WorldSmallDB.db')
         c = conn.cursor()
-        c.execute("DROP TABLE IF EXISTS GroceryDB")
-        c.execute("CREATE TABLE GroceryDB (id,general_name, count_products, ingred_FPro, avg_FPro_products, avg_distance_root, ingred_normalization_term, semantic_tree_name, semantic_tree_node)")
+        c.execute("DROP TABLE IF EXISTS WorldSmallDB")
+        c.execute("CREATE TABLE WorldSmallDB (country, region, gdppcap08, polityIV)")
         #insert
-        c.executemany("INSERT INTO GroceryDB VALUES (?,?, ?, ?, ?, ?, ?, ?, ?)", payload)
+        c.executemany("INSERT INTO WorldSmallDB VALUES (?, ?, ?, ?)", payload)
         conn.commit()
         conn.close()
-    return "GroceryDB.db"
-
+    return "WorldSmallDB.db"
