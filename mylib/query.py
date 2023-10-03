@@ -11,7 +11,4 @@ def query():
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM WorldSmallDB")
     print(cursor.fetchall())
-
-
-
-query()
+    conn.close()
