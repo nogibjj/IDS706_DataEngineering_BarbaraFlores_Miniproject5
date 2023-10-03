@@ -1,11 +1,9 @@
 """
-Extract a dataset from a URL like Kaggle or data.gov. JSON or CSV formats tend to work well
-
-food dataset
+We will use a 'small world' database from Nick Eubank's GitHub, which is utilized for the 'Practical Data Science' class
 """
 import requests
 
-def extract(url="https://github.com/nickeubank/practicaldatascience/blob/master/Example_Data/world-small.csv", 
+def extract(url="https://raw.githubusercontent.com/nickeubank/practicaldatascience/master/Example_Data/world-small.csv", 
             file_path="data/world-small.csv"):
     """"Extract a url to a file path"""
     timeout = 100
@@ -13,3 +11,5 @@ def extract(url="https://github.com/nickeubank/practicaldatascience/blob/master/
         with open(file_path, 'wb') as f:
             f.write(r.content)
     return file_path
+
+extract()
