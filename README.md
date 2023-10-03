@@ -1,4 +1,3 @@
-[![CI](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml)
 
 
 ## SQLite Lab
