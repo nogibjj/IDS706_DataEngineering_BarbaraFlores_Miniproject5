@@ -4,15 +4,13 @@ import sqlite3
 
 
 def query():
-    """Query the database for the top 5 rows of the GroceryDB table"""
-    conn = sqlite3.connect("WorldSmallDB.db")
-    cursor = conn.cursor()
-    #cursor.execute("SELECT * FROM WorldSmall")
-    #print("Top 5 rows of the GroceryDB table:")
-    #print(cursor.fetchall())
-    conn.close()
-    return "Success"
+    conn = sqlite3.connect("/workspaces/IDS706_DataEngineering_BarbaraFlores_Miniproject5/WorldSmallDB.db")
 
+    # Resto de tu código...
+    # Por ejemplo, puedes agregar un cursor y ejecutar una consulta aquí
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM WorldSmallDB")
+    print(cursor.fetchall())
 
 
 
