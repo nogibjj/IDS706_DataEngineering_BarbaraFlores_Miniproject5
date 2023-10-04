@@ -20,5 +20,15 @@ With the [extract.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraF
 
 ### 2. Perform CRUD operations
 
+In this project, various CRUD operations were carried out, such as:
+
+#### Create
+
+#### Read
+
+#### Update
+
+#### Delete
+
 
 # change test main and delete calculator
