@@ -2,13 +2,15 @@
 
 import sqlite3
 
-
 def query():
     conn = sqlite3.connect("/workspaces/IDS706_DataEngineering_BarbaraFlores_Miniproject5/data/WorldSmallDB.db")
-
-    # Resto de tu código...
-    # Por ejemplo, puedes agregar un cursor y ejecutar una consulta aquí
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM WorldSmallDB")
+    print("\nLet's quickly review our database. Let's take a sample of how it is constructed.\n")
+    cursor.execute("SELECT * FROM WorldSmallDB ORDER BY RANDOM() LIMIT 5")
+    print(cursor.fetchall())
+    print("\nHow many records per continent does our database have?\n")
+    cursor.execute(
+        "SELECT region, COUNT(*) FROM WorldSmallDB GROUP BY region"
+    )
     print(cursor.fetchall())
     conn.close()
