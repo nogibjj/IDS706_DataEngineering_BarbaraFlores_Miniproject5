@@ -1,4 +1,19 @@
+
 [![CI](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml)
+
+# WIP
+
+ ![WIP](https://cdn-icons-png.flaticon.com/512/5578/5578703.png)
+
+IDS706_DataEngineering_BarbaraFlores_Miniproject5
+## 📊  Complex SQL Query for a MySQL Database
+
+The objective of this assignment is to develop a Python script that demonstrates proficiency in interacting with a SQL database. 
+
+
+
+
+
 
 ## SQLite Lab
 
