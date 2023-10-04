@@ -44,7 +44,7 @@ In this project, various CRUD operations were carried out, such as:
 
 ### 4. Results
 Finally, you can view the screenshot of successful database operations at the following prints:
-![SuccessfuLDatabaseOperations](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/main/images/SuccessfuLDatbaseOperations.png)
+![SuccessfuLDatabaseOperations](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/main/images/SuccessfuLDatabaseOperations.png)
 
 ### 5. Reference
 https://github.com/nogibjj/sqlite-lab
