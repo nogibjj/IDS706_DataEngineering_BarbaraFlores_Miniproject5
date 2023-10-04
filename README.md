@@ -26,6 +26,8 @@ In this project, various CRUD operations were carried out, such as:
 In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), the **CREATE** operation is performed to create the `WorldSmallDB` database along with its respective records.
 
 #### Read
+In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **READ** the specified CSV file [WorldSmall.csv](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/data/WorldSmall.csv) using the function `with open(dataset, 'r', encoding='utf-8', newline='')`.
+
 
 #### Update
 
