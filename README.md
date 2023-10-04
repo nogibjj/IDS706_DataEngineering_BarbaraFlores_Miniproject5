@@ -28,10 +28,10 @@ In this project, various CRUD operations were carried out, such as:
 #### Read
 - In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **Read** the specified CSV file [WorldSmall.csv](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/data/WorldSmall.csv) using the function `with open(dataset, 'r', encoding='utf-8', newline='')`.
 
-- In the file main.py: https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/main.py, the  **Read**  operation is performed when we read the WorldSmallDB database using the SELECT statement.
+- In the file main.py: https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/main.py, the  **Read**  operation is performed when we read the WorldSmallDB database using the `SELECT` statement.
 
 #### Update
-- In the file main.py: https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/main.py, the  **Update**  operation is performed when we modify the WorldSmallDB database using the UPDATE statement.
+- In the file main.py: https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/main.py, the  **Update**  operation is performed when we modify the WorldSmallDB database using the `UPDATE` statement.
 
 #### Delete
 - In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **DELETE** the `WorldSmallDB` database in case it does not exist previously, before creating it again.
