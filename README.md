@@ -6,7 +6,7 @@ IDS706_DataEngineering_BarbaraFlores_Miniproject5
 
 The goal of this miniproject is to create a Python script that effectively interacts with a SQL database.
 
-In this miniproject, the following activities were undertaken:
+In this miniproject, the following activities were performed:
 
 ### 1. Connect to a SQL database. 
 
