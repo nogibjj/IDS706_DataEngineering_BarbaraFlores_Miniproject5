@@ -10,7 +10,7 @@ In this miniproject, the following activities were undertaken:
 
 ### 1. Connect to a SQL database. 
 
-Connect to a SQL database. In particular, the "world-small.csv" database was used, which was employed in the "Practical Data Science" class taught by Nick Eubank. This database contains information about some countries, their regions, and their values for Polity IV and gdppcap08.
+Connect to a SQL database. In particular, the ["world-small.csv"](https://raw.githubusercontent.com/sejdemyr/sejdemyr.github.io/master/r-tutorials/basics/data/world-small.csv) database was used, which was employed in the "Practical Data Science" class taught by Nick Eubank. This database contains information about some countries, their regions, and their values for Polity IV and gdppcap08.
 
 - The **polityIV** variable in this dataset is an expert score for a country's authoritarianism. Traditionally, values of -10 represent extreme autocracies, while values of 10 denote consolidated liberal democracies. However, in this dataset, they have been rescaled to range from 0 to 20, where 0 represents an extreme autocracy, and 20 represents a consolidated liberal democracy.
 
