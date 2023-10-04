@@ -18,4 +18,4 @@ Connect to a SQL database. In particular, the [world-small.csv](https://raw.gith
 
 With the [extract.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/extract.py) scrypt, we extract a CSV file from [an extrenal url](https://raw.githubusercontent.com/sejdemyr/sejdemyr.github.io/master/r-tutorials/basics/data/world-small.csv) and save its content to [a local path](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/data/WorldSmall.csv). The extract function utilizes the `requests` library to make an HTTP request and then it saves the response content.
 
-
+### 2. Perform CRUD operations
