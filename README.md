@@ -23,13 +23,16 @@ With the [extract.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraF
 In this project, various CRUD operations were carried out, such as:
 
 #### Create
+- In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), the **Create** operation is performed to create the `WorldSmallDB` database along with its respective records. 
 
 #### Read
+- In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **Read** the specified CSV file [WorldSmall.csv](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/data/WorldSmall.csv) using the function `with open(dataset, 'r', encoding='utf-8', newline='')`.
+
 
 #### Update
 
 #### Delete
-
+- In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **DELETE** the `WorldSmallDB` database in case it does not exist previously, before creating it again.
 
 ### 3. Perform SQL queries
 
