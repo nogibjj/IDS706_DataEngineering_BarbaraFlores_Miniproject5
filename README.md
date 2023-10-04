@@ -31,4 +31,11 @@ In this project, various CRUD operations were carried out, such as:
 #### Delete
 
 
-# change test main and delete calculator
+### 3. Perform SQL queries
+
+
+### Results
+Finally, you can view the log of successful database operations at the following link.
+
+
+
