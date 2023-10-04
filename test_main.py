@@ -23,5 +23,7 @@ class TestExtractFunction(unittest.TestCase):
         if os.path.exists(output_file_path):
             os.remove(output_file_path)
 
+
+
 if __name__ == '__main__':
     unittest.main()

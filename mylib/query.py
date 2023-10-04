@@ -31,7 +31,7 @@ def query():
     )
     print_table(cursor, cursor.fetchall())
 
-    print("We are going to transform the 'region' column to make it more explanatory, replacing 'C&E Europe' with 'Central and Eastern Europe', 'N. America' with 'North America', 'S. America' with 'South America', and 'W. Europe' with 'Western Europe.")
+    print("We are going to transform the 'region' column to make it more explanatory, replacing 'C&E Europe' with 'Central and Eastern Europe', 'N. America' with 'North America',\n'S. America' with 'South America', and 'W. Europe' with 'Western Europe.")
     update_region_column(cursor)
 
     print("\nHow does Gross Domestic Product per capita behave in 2008 in each continent? What are its mean, maximum, and minimum values?\n")
