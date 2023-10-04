@@ -32,7 +32,7 @@ In this project, various CRUD operations were carried out, such as:
 #### Update
 
 #### Delete
-
+- In the file [transform_load.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/blob/main/mylib/transform_load.py), we **DELETE** the `WorldSmallDB` database in case it does not exist previously, before creating it again.
 
 ### 3. Perform SQL queries
 
