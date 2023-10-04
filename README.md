@@ -34,7 +34,7 @@ In this project, various CRUD operations were carried out, such as:
 ### 3. Perform SQL queries
 
 
-### Results
+### 4. Results
 Finally, you can view the log of successful database operations at the following link.
 
 
