@@ -2,7 +2,7 @@
 [![CI](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/actions/workflows/cicd.yml)
 
 IDS706_DataEngineering_BarbaraFlores_Miniproject5
-## 📊  Complex SQL Query for a MySQL Database
+## 📂 Python Script interacting with SQL Database
 
 The objective of this assignment is to develop a Python script that demonstrates proficiency in interacting with a SQL database. 
 
