@@ -1,5 +1,5 @@
 """
-We will use a 'small world' database from Nick Eubank's GitHub, which is utilized for the 'Practical Data Science' class
+We will use a 'small world' database from Nick Eubank's Class, which is utilized for the 'Practical Data Science' class
 """
 import requests
 
