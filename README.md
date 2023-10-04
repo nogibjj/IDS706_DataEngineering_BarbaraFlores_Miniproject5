@@ -39,7 +39,7 @@ In this project, various CRUD operations were carried out, such as:
 
 ### 4. ETL With SQL Diagram
 
-![ETL With SQL Diagram](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/main/ETLWithSQLite.png)
+![ETL With SQL Diagram](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/main/images/ETLWithSQLite.png)
 
 
 ### 4. Results
