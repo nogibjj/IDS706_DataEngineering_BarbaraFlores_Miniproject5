@@ -16,7 +16,7 @@ def load(dataset="data/WorldSmall.csv"):
     with open(dataset, 'r', encoding='utf-8', newline='') as file:
         payload = csv.reader(file, delimiter=',')
 
-        conn = sqlite3.connect('WorldSmallDB.db')
+        conn = sqlite3.connect('data/WorldSmallDB.db')
         c = conn.cursor()
         c.execute("DROP TABLE IF EXISTS WorldSmallDB")
         
