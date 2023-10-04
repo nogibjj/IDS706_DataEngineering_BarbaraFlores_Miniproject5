@@ -40,9 +40,8 @@ In this project, various CRUD operations were carried out, such as:
 
 
 ### 4. Results
-Finally, you can view the log of successful database operations at the following link.
+Finally, you can view the screenshot of successful database operations at the following prints:
 
-The 'main.py' file demonstrates how to interact with a MySQL database and perform CRUD (Create, Read, Update, Delete) operations. After running the script, the 'test.py' file confirms successful test results.
 
 ### 5. Reference
 https://github.com/nogibjj/sqlite-lab
