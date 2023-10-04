@@ -34,8 +34,15 @@ In this project, various CRUD operations were carried out, such as:
 ### 3. Perform SQL queries
 
 
+### 4. ETL With SQL Diagram
+
+![ETL With SQL Diagram](https://raw.githubusercontent.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Miniproject5/main/ETLWithSQLite.png)
+
+
 ### 4. Results
 Finally, you can view the log of successful database operations at the following link.
+
+The 'main.py' file demonstrates how to interact with a MySQL database and perform CRUD (Create, Read, Update, Delete) operations. After running the script, the 'test.py' file confirms successful test results.
 
 ### 5. Reference
 https://github.com/nogibjj/sqlite-lab
