@@ -4,8 +4,7 @@
 IDS706_DataEngineering_BarbaraFlores_Miniproject5
 ## 📂 Python Script interacting with SQL Database
 
-The objective of this assignment is to develop a Python script that demonstrates proficiency in interacting with a SQL database. 
-
+The goal of this task is to create a Python script that effectively interacts with a SQL database.
 
 In this miniproject, the following activities were undertaken:
 
